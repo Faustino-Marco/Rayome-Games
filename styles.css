@@ -1,0 +1,49 @@
+/* styles.css */
+
+body{
+    margin:0px;
+    padding:0px;
+    width: 100%;
+    background:teal;
+}
+
+header{
+    background-color: rgb(11, 122, 220);
+    height: 80px;
+    width: 100vw;
+}
+
+header h1{
+    margin top:100px; 
+    margin-left:20px;
+    margin-right:20px;
+    float:left;
+}
+
+nav ul {
+    margin-left: 300px;
+    padding-top:30px;
+    font-size:20px;
+}
+
+nav li {
+    display:inline;
+    padding:8px;
+}
+
+nav li a {
+    color:rgb(77, 239, 41);
+}
+
+.lower-section {
+    background:rgb(11, 122, 220);
+    color: white;
+    width:100vw; 
+}
+.lower-section ul li {
+    display:inline;
+}
+
+#person-name {
+    
+}
