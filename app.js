@@ -31,11 +31,11 @@ if (response.toLowerCase() === "seattle seahawks") {
     document.write("Nope. Its the Seattle Seahawks GO HAWKS BABY!!");
 }
 
-let age = prompt("How ld is your cat?");
-if (age == 20) {
-    console.log("Wow, that's old");
-} else if (age === 10) {
-    console.log("You've them a while!");
-} else if (age < 10 && age > 0) {
-    console.log("Aww, kitty!");
-}
+// let age = prompt("How ld is your cat?");
+// if (age == 20) {
+//     console.log("Wow, that's old");
+// } else if (age === 10) {
+//     console.log("You've them a while!");
+// } else if (age < 10 && age > 0) {
+//     console.log("Aww, kitty!");
+// }
