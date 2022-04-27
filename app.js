@@ -21,15 +21,15 @@
 
 // document.write("<p id='username'>" + userName + "</p>");
 
-let response = prompt("What's Marco's favorite sports team?");
+// let response = prompt("What's Marco's favorite sports team?");
 
-if (response.toLowerCase() === "seattle seahawks") {
-    document.write("That's right GO HAWKS!");
-} else if (response.toLowerCase() == "rainbow") {
-    document.write("That's not even a team...");
-} else {
-    document.write("Nope. Its the Seattle Seahawks GO HAWKS BABY!!");
-}
+// if (response.toLowerCase() === "seattle seahawks") {
+//     document.write("That's right GO HAWKS!");
+// } else if (response.toLowerCase() == "rainbow") {
+//     document.write("That's not even a team...");
+// } else {
+//     document.write("Nope. Its the Seattle Seahawks GO HAWKS BABY!!");
+// }
 
 // let age = prompt("How ld is your cat?");
 // if (age == 20) {
