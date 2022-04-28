@@ -20,6 +20,23 @@
         </nav>
     </header>
     <main>
+        <p>So tell me, what's your favorite video game??</p>
+        Console: <input id="console">
+        Game: <input id="game">
+        <button id="read">Boom!</button>
+        <hr>
+        <div id="result"></div>
+        <script>
+            function tell_me() {
+                var gconsole = document.getElementById('console').value;
+                var vgame = document.getElementById('game').value;
+
+                var html = 'Oh! ' + vgame + ' on ' + gconsole + ' is a great game!';
+
+                document.getElementById('result').innerHTML = html;
+            }
+            document.getElementById('read').addEventListener('click', tell_me);
+        </script>
         <section class="main-section">
             <image src="https://via.placeholder.com/300">
                 <p>
