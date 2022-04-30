@@ -8,33 +8,37 @@
 </head>
 
 <body>
-    
     <header>
         <h1>Rayome Games</h1>
         <nav>
             <ul>
                 <li><a href="https://jray87.github.io/GamingCompany/index.html">John </a></li>
                 <li><a href="https://faustino-marco.github.io/sports-teams/index.html">Marco </a></li>
-                <li><a href="#">Frank </a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Click Here for Latest Earnings Report </a></li>
             </ul>
         </nav>
     </header>
     <main>
         <p>So tell me, what's your favorite video game??</p>
-        Console: <input id="console">
-        Game: <input id="game">
-        <button id="read">Boom!</button>
+        Console: <input id="console">;
+        Game: <input id="game">;
+        <button id="read">Boom!</button>;
         <hr>
         <div id="result"></div>
         <script>
             function tell_me() {
-                var gconsole = document.getElementById('console').value;
-                var vgame = document.getElementById('game').value;
+                let gconsole = document.getElementById('console').value;
+                let vgame = document.getElementById('game').value;
 
-                var html = 'Oh! ' + vgame + ' on ' + gconsole + ' is a great game!';
-
+                let html = ''
+                if (gconsole != "pc") {
+                    html = 'Oh boy! ' + vgame + ' on ' + gconsole + ' is a great game!';
+                } else {
+                    html = 'Oh sweet! ' + vgame + ' on ' + gconsole + ' is a great game!';
+                }
                 document.getElementById('result').innerHTML = html;
             }
+
             document.getElementById('read').addEventListener('click', tell_me);
         </script>
         <section class="main-section">
@@ -46,35 +50,64 @@
                 </p>
         </section> 
 </br>
-        <h2>Favorite Moments</h2>
         <section class="lower-section">
-            <ul>
-                <li><image src="https://via.placeholder.com/175">
-                    <figcaption>
-                        Say it in Russian! Maybe I love you so much I love you no matter who you are pretending to be. Hey!
-                        I'm a porno-dealing monster, what do I care what you think? The key to victory is discipline, and
-                        that means a well made bed. You will practice until you can make your bed in your sleep.
-                    </figcaption>
-                </li>
-</br>
-                <li>
-                <image src="https://via.placeholder.com/175">
-                    <figcaption>
-                        Say it in Russian! Maybe I love you so much I love you no matter who you are pretending to be. Hey!
-                        I'm a porno-dealing monster, what do I care what you think? The key to victory is discipline, and
-                        that means a well made bed. You will practice until you can make your bed in your sleep.
-                    </figcaption>
-                </li>
-</br>
-                <li>
-                <image src="https://via.placeholder.com/175">
-                    <figcaption>
-                        Say it in Russian! Maybe I love you so much I love you no matter who you are pretending to be. Hey!
-                        I'm a porno-dealing monster, what do I care what you think? The key to victory is discipline, and
-                        that means a well made bed. You will practice until you can make your bed in your sleep.
-                    </figcaption>
-                </li>
-            </ul>
+            <h2>Favorite Moments</h2>
+                <div class="row">
+                    <div class="column" style="width:200px">
+                        <image src="https://via.placeholder.com/175" alt="placeholder" style="width:100%">
+                        <p>
+                            Say it in Russian! Maybe I love you so much I love you no matter who you are pretending to be. Hey!
+                            I'm a porno-dealing monster, what do I care what you think? The key to victory is discipline, and
+                            that means a well made bed. You will practice until you can make your bed in your sleep.
+                        </p>
+                    </div>
+                    <div class="column" style="width:200px">
+                        <image src="https://via.placeholder.com/175" alt="placeholder" style="width:100%">
+                            <p>
+                                Say it in Russian! Maybe I love you so much I love you no matter who you are pretending to be. Hey!
+                                I'm a porno-dealing monster, what do I care what you think? The key to victory is discipline, and
+                                that means a well made bed. You will practice until you can make your bed in your sleep.
+                            </p>    
+                    </div>
+                    <div class="column" style="width:200px">
+                        <image src="https://via.placeholder.com/175" alt="placeholder" style="width:100%">
+                            <p>
+                                Say it in Russian! Maybe I love you so much I love you no matter who you are pretending to be. Hey!
+                                I'm a porno-dealing monster, what do I care what you think? The key to victory is discipline, and
+                                that means a well made bed. You will practice until you can make your bed in your sleep.
+                            </p>    
+                    </div>
+                </div>
+                <!-- 
+                    <ul>
+                    <li>
+                        <image src="https://via.placeholder.com/175">
+                         <p>
+                            Say it in Russian! Maybe I love you so much I love you no matter who you are pretending to be. Hey!
+                            I'm a porno-dealing monster, what do I care what you think? The key to victory is discipline, and
+                            that means a well made bed. You will practice until you can make your bed in your sleep.
+                        </p> 
+                    </li>
+    </br>
+                    <li>
+                         <image src="https://via.placeholder.com/175"> 
+                         <p>
+                            Say it in Russian! Maybe I love you so much I love you no matter who you are pretending to be. Hey!
+                            I'm a porno-dealing monster, what do I care what you think? The key to victory is discipline, and
+                            that means a well made bed. You will practice until you can make your bed in your sleep.
+                        </p>
+                    </li>
+    </br>
+                    <li>
+                         <image src="https://via.placeholder.com/175"> 
+                         <p>
+                            Say it in Russian! Maybe I love you so much I love you no matter who you are pretending to be. Hey!
+                            I'm a porno-dealing monster, what do I care what you think? The key to victory is discipline, and
+                            that means a well made bed. You will practice until you can make your bed in your sleep.
+                        </p>
+                    </li>
+                </ul> 
+            -->
         </section>
 </br>
     </main>
